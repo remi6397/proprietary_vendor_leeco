@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),le_zl1)
+ifeq ($(TARGET_DEVICE),zl1)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
