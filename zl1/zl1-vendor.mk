@@ -1380,6 +1380,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
 
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt
+
 PRODUCT_PACKAGES += \
     libtime_genoff
 endif
