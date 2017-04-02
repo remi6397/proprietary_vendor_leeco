@@ -1388,7 +1388,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
     vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
     vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
     vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt
 
 PRODUCT_PACKAGES += \
