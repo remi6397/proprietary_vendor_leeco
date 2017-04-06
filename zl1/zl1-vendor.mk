@@ -188,6 +188,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libcsd-client.so:system/vendor/lib64/libcsd-client.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
