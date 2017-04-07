@@ -1380,6 +1380,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 
+#WV DRM
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so
+
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
