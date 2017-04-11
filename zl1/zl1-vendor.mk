@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/zl1/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/leeco/zl1/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/leeco/zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/zl1/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
@@ -149,7 +148,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    libloc_api_v02 \
     datastatusnotification \
     embms \
     fastdormancy \
