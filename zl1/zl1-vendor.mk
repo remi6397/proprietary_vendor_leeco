@@ -198,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -348,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
