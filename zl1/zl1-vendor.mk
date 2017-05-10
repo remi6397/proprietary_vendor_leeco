@@ -1406,7 +1406,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    libloc_api_v02
+    libloc_api_v02 \
+    LetvRemoteControl \
+    UEIQuicksetSDKLeTV
 endif
 
 -include vendor/extra/devices.mk
