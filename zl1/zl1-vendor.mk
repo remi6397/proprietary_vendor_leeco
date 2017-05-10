@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     datastatusnotification \
     embms \
     fastdormancy \
