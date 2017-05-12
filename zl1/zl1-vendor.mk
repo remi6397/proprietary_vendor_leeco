@@ -1386,6 +1386,7 @@ PRODUCT_COPY_FILES += \
 #WV DRM
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/leeco/zl1/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
@@ -1400,14 +1401,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
 
 PRODUCT_COPY_FILES += \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b00:system/vendor/etc/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b01:system/vendor/etc/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b02:system/vendor/etc/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b03:system/vendor/etc/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b04:system/vendor/etc/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b05:system/vendor/etc/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b06:system/vendor/etc/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.mdt:system/vendor/etc/firmware/widevine.mdt \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.mbn:system/vendor/etc/firmware/widevine.mbn
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
