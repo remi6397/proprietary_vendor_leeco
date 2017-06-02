@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/leeco/zl1/proprietary/etc/virtual-spn-conf-by-efspn.xml:system/etc/virtual-spn-conf-by-efspn.xml \
+    vendor/leeco/zl1/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/leeco/zl1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/zl1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/leeco/zl1/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
