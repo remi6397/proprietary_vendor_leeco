@@ -227,6 +227,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/leeco/x2/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/leeco/x2/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/leeco/x2/proprietary/vendor/lib/test_suite_all_modules.so:system/vendor/lib/test_suite_all_modules.so \
     vendor/leeco/x2/proprietary/vendor/lib/test_suite_no_sensor.so:system/vendor/lib/test_suite_no_sensor.so \
     vendor/leeco/x2/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
