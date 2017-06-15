@@ -1116,3 +1116,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
+
+# Update from OP3 June Release
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/leeco/x2/proprietary/lib64/libparam.so:system/lib64/libparam.so
