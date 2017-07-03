@@ -1382,6 +1382,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/leeco/zl1/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
 
