@@ -1401,7 +1401,9 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     LetvRemoteControl \
-    UEIQuicksetSDKLeTV
+    UEIQuicksetSDKLeTV \
+    SmartcardService \
+    org.simalliance.openmobileapi
 endif
 
 -include vendor/extra/devices.mk
