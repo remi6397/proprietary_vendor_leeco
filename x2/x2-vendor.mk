@@ -419,6 +419,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     QtiTetherService \
+    fastdormancy \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
@@ -428,7 +429,9 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     LetvRemoteControl \
-    UEIQuicksetSDKLeTV
+    UEIQuicksetSDKLeTV \
+    SmartcardService \
+    org.simalliance.openmobileapi
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/iop:system/bin/iop \
