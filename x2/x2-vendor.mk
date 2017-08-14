@@ -1097,3 +1097,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
+
+# s26 audio hal
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
+    vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so
