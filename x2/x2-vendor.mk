@@ -1102,3 +1102,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so
+
+# Update from OP3 June Release
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/leeco/x2/proprietary/lib64/libparam.so:system/lib64/libparam.so
