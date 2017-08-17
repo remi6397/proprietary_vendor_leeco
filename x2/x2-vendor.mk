@@ -522,7 +522,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -666,7 +673,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
-    vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
@@ -1118,3 +1124,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib64/libstlport.so:system/lib64/libstlport.so
+
+# s26 audio hal
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
+    vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so
+
+# Update from OP3 June Release
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/leeco/x2/proprietary/lib64/libparam.so:system/lib64/libparam.so
