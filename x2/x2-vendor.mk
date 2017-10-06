@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/app/LetvRemoteControl/lib/arm/libbvfixed.so:system/app/LetvRemoteControl/lib/arm/libbvfixed.so \
+    vendor/leeco/x2/proprietary/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/x2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/x2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/leeco/x2/proprietary/bin/cnd:system/bin/cnd \
@@ -103,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/x2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/leeco/x2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/leeco/x2/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/leeco/x2/proprietary/etc/dolby/dax-default.xml:system/etc/dolby/dax-default.xml \
     vendor/leeco/x2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/x2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
@@ -183,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
     vendor/leeco/x2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/x2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -190,6 +193,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/leeco/x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/leeco/x2/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/leeco/x2/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
@@ -235,6 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/leeco/x2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
+    vendor/leeco/x2/proprietary/lib/libdlbdapstorage.so:system/lib/libdlbdapstorage.so \
+    vendor/leeco/x2/proprietary/lib/libhwdaphal.so:system/lib/libhwdaphal.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/leeco/x2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -244,11 +252,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/x2/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
     vendor/leeco/x2/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/leeco/x2/proprietary/lib/soundfx/libswdax.so:system/lib/soundfx/libswdax.so \
     vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
+    vendor/leeco/x2/proprietary/lib64/libhwdaphal.so:system/lib64/libhwdaphal.so \
     vendor/leeco/x2/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/x2/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/x2/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
@@ -260,6 +271,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/leeco/x2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/x2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/leeco/x2/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/x2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/leeco/x2/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
@@ -983,12 +995,16 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libqct_resampler \
+    LetvRemoteControl \
     QtiTelephonyService \
     TimeService \
+    UEIQuicksetSDKLeTV \
     datastatusnotification \
     embms \
     fastdormancy \
     shutdownlistener \
+    Ax \
+    AxUI \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
@@ -998,7 +1014,6 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     ConnectivityExt \
-    QPerformance \
     QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \
