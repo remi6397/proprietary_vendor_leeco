@@ -98,6 +98,7 @@ etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
 etc/data/dsi_config.xml|93c5644fc76dd0aa05b12bb80005b25a8abf8b8c
 etc/data/netmgr_config.xml|0c9193c1f84d91ed024adc034830b82aa6c12f40
+etc/dolby/dax-default.xml|08cc38ad15de300bf77e34f261d2cc7716d9be38
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
 etc/dpm/nsrm/NsrmConfiguration.xml|c406e5aaaa4ab278a7f7b62405ad5d91c8084835
 etc/drc/drc_cfg_AZ.txt
@@ -243,6 +244,7 @@ etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/tcmclient.jar|e7149c664f4b1841139ab816c0d4e0942df0583c
 lib64/hw/audio.primary.msm8996.so
 lib64/libgnsspps.so|97a0dd71b605480e50c606517b7c976837d9ff2c
+lib64/libhwdaphal.so|0c83aaf9e58e06b4c28b587972ae1fb04b5ef287
 -lib64/libloc_api_v02.so|2b6e61633ffb3e332bb2c03c3329f4250e403f10
 lib64/libloc_ds_api.so|388b82bb83cb54d3ff2f89ce38cb52f65d582448
 lib64/libparam.so|d9975e3f691148e5a3c14110305e073aa3aa2f46
@@ -258,6 +260,8 @@ lib/libarcsoft_night_shot.so
 lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_smart_denoise.so
 lib/libcamera_letv_algo.so
+lib/libdlbdapstorage.so|1139a22ea7ce9d648d787f7d2d498954385ea781
+lib/libhwdaphal.so|d69256c5bfb9870a90b478edf5e72d38e7e80cc6
 lib/libLetvCameraImageSDK.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
@@ -269,9 +273,13 @@ lib/libmputility.so
 lib/libOmxVpp.so|6cd45046959593f293b7170b80d10eb726f9f966
 lib/libqomx_core.so
 lib/libqrDec.so
+lib/libstagefright_soft_ddpdec.so|89047b8e42c9a414e1194af552245396d519b237
 lib/libstagefright_soft_flacdec.so|5b5b83b4019feebc3f7fe7efb414f5244f83c156
 lib/libstlport.so
 lib/libvpplibrary.so|5e74d22fe1f7b2ab67760a7ce9a23b8e078a13db
+lib/soundfx/libswdax.so|3730f322ca85e19ca2081aff939a7521a677efb0
+-priv-app/Ax/Ax.apk|e361fa44889295bad61ff6d24d6c85f8b2cf867a
+-priv-app/AxUI/AxUI.apk|83656e07b12300807f7a55162dd9f97fca2f7857
 -priv-app/CNEService/CNEService.apk|e4a3bcf497bf1e2cc822205bc9adc59ac232cb6c
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk|84aba5325ca33e5babd58f917c9cdf7acda156af
 -priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
@@ -288,6 +296,7 @@ vendor/bin/perfd|03732187ce712ed6513e265042bdc6ba8b5ca6ac
 vendor/bin/qseeproxydaemon|fda41ed0b684245861a9c8098d812980a3964220
 vendor/bin/qti|04f0a4da146c234c9d1d659771ead1347a7b73c4
 vendor/bin/thermal-engine|e37ef838431167f6e2c26f51b8ce71bef5555d80
+vendor/etc/audio_effects.conf|3e221429db9b455dfb08fbee69b212efdb631da3
 vendor/etc/audio_output_policy_letv.conf
 vendor/etc/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
 vendor/etc/perf-profile1.conf|5dc7f25ff73c6d8f024202bf093cf04c0b00195a
