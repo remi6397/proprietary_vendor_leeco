@@ -183,6 +183,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/leeco/x2/proprietary/etc/listen_platform_info.xml:system/etc/listen_platform_info.xml \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/android.hardware.vulkan.level.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level-0.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/android.hardware.vulkan.version.xml:system/etc/permissions/android.hardware.vulkan.version.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version-1_0_3.xml \
     vendor/leeco/x2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/x2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
@@ -195,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/leeco/x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/leeco/x2/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -232,6 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/x2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/x2/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/leeco/x2/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
+    vendor/leeco/x2/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
     vendor/leeco/x2/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
@@ -242,6 +250,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/leeco/x2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/x2/proprietary/lib/libdlbdapstorage.so:system/lib/libdlbdapstorage.so \
+    vendor/leeco/x2/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/leeco/x2/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+    vendor/leeco/x2/proprietary/lib/libETC1.so:system/lib/libETC1.so \
+    vendor/leeco/x2/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    vendor/leeco/x2/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
+    vendor/leeco/x2/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
     vendor/leeco/x2/proprietary/lib/libhwdaphal.so:system/lib/libhwdaphal.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -256,13 +270,23 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/leeco/x2/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/leeco/x2/proprietary/lib/soundfx/libswdax.so:system/lib/soundfx/libswdax.so \
     vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
+    vendor/leeco/x2/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
+    vendor/leeco/x2/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
+    vendor/leeco/x2/proprietary/lib64/libETC1.so:system/lib64/libETC1.so \
+    vendor/leeco/x2/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
+    vendor/leeco/x2/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
+    vendor/leeco/x2/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
     vendor/leeco/x2/proprietary/lib64/libhwdaphal.so:system/lib64/libhwdaphal.so \
     vendor/leeco/x2/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/leeco/x2/proprietary/lib64/libOpenMAXAL.so:system/lib64/libOpenMAXAL.so \
+    vendor/leeco/x2/proprietary/lib64/libOpenSLES.so:system/lib64/libOpenSLES.so \
     vendor/leeco/x2/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/x2/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/leeco/x2/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -696,6 +720,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:system/vendor/lib/libois_bu63165.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/leeco/x2/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libQBLAS-0.13.0.so:system/vendor/lib/libQBLAS-0.13.0.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
@@ -718,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/leeco/x2/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/leeco/x2/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
@@ -905,6 +931,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
